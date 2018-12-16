@@ -64,8 +64,11 @@ kgss
 #> #   SPOCC08 <dbl>, ...
 ```
 
-`open_codebook()` function open browser with codebook pdf.
+`open_codebook()` function open browser with codebook
+pdf.
 
 ``` r
 open_codebook()
 ```
+
+![](https://user-images.githubusercontent.com/6179259/50054066-47e35300-0181-11e9-89a4-a88c56ce7453.gif)
