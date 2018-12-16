@@ -72,3 +72,16 @@ open_codebook()
 ```
 
 ![](https://user-images.githubusercontent.com/6179259/50054066-47e35300-0181-11e9-89a4-a88c56ce7453.gif)
+
+## citation
+
+Please check [this
+    link](http://kgss.skku.edu/?page_id=956).
+
+### Korean
+
+    김지범, 강정한, 김석호, 김창환, 박원호, 이윤석, 최슬기, 김솔이. (2017). 한국종합사회조사 2003-2016. 서울: 성균관대학교 출판부.
+
+### English
+
+    Kim, Jibum, Jeong-han Kang, Seok-ho Kim, Changhwan Kim, Wonho Park, Yun-Suk Lee, Seulgi Choi, and Sori Kim. (2017). Korean General Social Survey 2003-2016. Seoul, Korea: Sungkyunkwan University.
