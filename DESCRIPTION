@@ -1,0 +1,17 @@
+Package: KGSS
+Title: Data Package of Korean General Social Survey
+Version: 0.0.0.9000
+Authors@R: person(given = "Chanyub",
+             family = "Park",
+             role = c("aut","cre"),
+             email = "mrchypark@gmail.com",
+             comment = c(ORCID = "0000-0001-6474-2570"))
+Description: Korean General Social Survey Data from http://kgss.skku.edu/.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
+Imports: 
+    tibble,
+    crayon
