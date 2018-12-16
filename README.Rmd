@@ -14,36 +14,29 @@ knitr::opts_chunk$set(
 ```
 # KGSS
 
-The goal of KGSS is to ...
+The goal of KGSS is to provide [KGSS data](http://kgss.skku.edu/?page_id=39) as data package.
 
 ## Installation
 
-You can install the released version of KGSS from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of KGSS from [Github](https://github.com/mrchypark/KGSS) with:
 
 ``` r
-install.packages("KGSS")
+# install.packages("remotes")
+remotes::install_github("mrchypark/KGSS")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+use data
 
 ```{r example}
-## basic example code
+library(KGSS)
+data(kgss)
+kgss
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+`open_codebook()` function open browser with codebook pdf.
 
-```{r cars}
-summary(cars)
+```r
+open_codebook()
 ```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
