@@ -1,9 +1,8 @@
 #' get Geographic Data
 #'
-#' @importFrom crayon hyperlink
 #' @export
 get_geographic_data <- function(){
-  cat("Please read", crayon::hyperlink("http://kgss.skku.edu/?page_id=1213", "http://kgss.skku.edu/?page_id=1213"), ".\n")
+  cat("Please read", "http://kgss.skku.edu/?page_id=1213", ".\n")
 }
 
 #' open codebook

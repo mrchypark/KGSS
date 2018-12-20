@@ -2,6 +2,5 @@
 
 export(get_geographic_data)
 export(open_codebook)
-importFrom(crayon,hyperlink)
 importFrom(tibble,tibble)
 importFrom(utils,browseURL)
